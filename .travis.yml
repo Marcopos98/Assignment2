@@ -1,0 +1,8 @@
+dist: xenial
+group: edge
+language: java
+sudo: required
+jdk: openjdk8
+script:
+ - cd sandwich-shop-manager/; mvn clean install
+
